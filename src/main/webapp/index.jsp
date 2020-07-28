@@ -19,7 +19,7 @@ import="java.net.InetAddress"%>
 		StringBuffer message = new StringBuffer();
 		message.append("<b>Server time:</b> " + new SimpleDateFormat("HH:mm:ss").format(Calendar.getInstance().getTime()));
 		message.append("<br>");
-		message.append("<b>Hostname:</b> " + InetAddress.getLocalHost().getHostName());
+		message.append("<b>Stephen Hostname:</b> " + InetAddress.getLocalHost().getHostName());
 		message.append("<br>");
 		message.append("<h2>Datasource properties</h2> ");
 		message.append("<p>");
